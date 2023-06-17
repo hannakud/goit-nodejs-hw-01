@@ -40,14 +40,4 @@ async function invokeAction({ action, id, name, email, phone }) {
       console.warn("\x1B[31m Unknown action type!");
   }
 }
-
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "05olLMgyVQdWRwgKfg5J6" });
-// invokeAction({
-//   action: "add",
-//   name: "Mango",
-//   email: "mango@gmail.com",
-//   phone: "322-22-22",
-// });
-// invokeAction({ action: "remove", id: "0f797051-32c4-4a95-9064-e7fa29b67bac" });
 invokeAction(argv);
